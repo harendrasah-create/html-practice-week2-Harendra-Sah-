@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: "Times New Roman", serif;
+}
+
+nav {
+    height: 42px;
+    background-color: #333;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+nav img {
+    width: 50px;
+    height: auto;
+}
+
+nav a {
+    color: blue;
+    margin: 5px;
+}
+
+main {
+    width: 310px;
+    margin: 35px auto;
+    padding: 28px 0 15px;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 23px;
+    margin: 0 0 15px;
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 16px;
+    margin-top: 14px;
+}
+
+.student-photo {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 12px;
+    margin: 10px 28px;
+}
+
+ul {
+    text-align: left;
+    font-size: 13px;
+    margin: 12px 30px;
+}
+
+#website a {
+    font-size: 13px;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+}
+
+
